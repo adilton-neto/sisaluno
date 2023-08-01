@@ -1,0 +1,337 @@
+body{
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+  
+
+}
+
+.heater{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgb(99, 25, 168);
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.conteudo-lado1{
+display: flex;
+width: 50%;
+height: 90vh;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+.conteudo-lado2{
+display: flex;
+width: 50%;
+height: 90vh;
+flex-direction: column;
+align-items: center;
+border: solid black 2px  ;
+border-top: none;
+border-right: none;
+border-bottom: none;
+
+}
+
+.tt-lado2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+
+}
+
+
+.btn{
+border-radius: 15px;
+width: 25%;
+height: 8.5vh;
+margin-top: 5vh;
+margin-left: -15vh;
+color: black;
+background-color: rgb(152, 152, 152);
+border:  1px black solid;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.btn:hover{
+    background-color: rgb(141, 47, 188);
+    color: #fff;
+
+    
+}
+
+
+.botao{
+    background-color: rgb(152, 152, 152);
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+
+.botao:hover{
+    background-color: rgb(141, 47, 188);
+    color: #fff;
+
+    
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    
+}
+
+.texto-lado2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* ///////////////////////////////////  lista aluno ////////////////////////////// */
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(217, 206, 192);
+}
+
+.table{
+    width: 90%;
+   height: auto;
+ 
+   
+}
+
+.td{
+height: 10vh;
+
+
+}
+
+.item-id-td{
+display: flex;
+width: 7vh;
+margin-left: 23px;
+justify-content: center;
+align-items: center;
+}
+
+.item-td{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.tabela{
+display: flex;
+
+justify-content: center;
+margin-top: 10vh;
+
+}
+
+.heater-1{
+height: 20vh;
+
+}
+
+.botao-cadastrar{
+
+border-radius: 15px;
+width: 10vh;
+border: none;
+    
+}
+
+
+.btn-lista-aluno{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.btn-excluir{
+background-color: red;
+color: #fff;
+height: 4vh;
+}
+
+.btn-alterar{
+    background-color:rgb(215, 215, 57);
+    color: #fff;
+    height: 4vh;
+    
+    }
+
+.btn-excluir:hover,
+.btn-alterar:hover{
+background-color: transparent;
+color: black;
+border: 1px solid black;
+
+}
+
+.btn-footer{
+display: flex;
+justify-content: flex-end;
+width: 100%;
+margin-left: -90px;
+margin-top: 20px;
+
+}
+
+.btn-footer-cadastrar{
+    width: 30vh;
+    height: 5vh;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(26, 118, 41);
+color: #fff;
+}
+
+.btn-footer-voltar{
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(99, 25, 168);
+color: #fff;
+}
+
+.btn-footer-cadastrar:hover,
+.btn-footer-voltar:hover{
+    background-color: transparent;
+    color: rgb(57, 21, 91);
+    border: blueviolet 1px solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif    ;
+
+
+}
+
+
+
+
+/* /////////////////////////////////////////  cadastro aluno ///////////////////////////////// */
+
+.box-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.formulario{
+display: flex;
+width: 40%;
+height: 50%;
+background-color: rgb(191, 183, 172);
+border-radius: 15px;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 0px 20px 2px #000;
+flex-direction: column;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cadastrar-1{
+width:20vh;
+margin-right: 0px;
+height: 4vh;
+margin-right: 20vh;
+margin-left: -60px;
+
+}
+
+.voltar-1{
+height: 4vh;
+margin-right: -20px;
+
+}
+
+.intem-form{
+display: flex;
+margin: 20px;
+
+
+}
+
+.item-1{
+margin-top: -15px;
+
+}
+
+.input-item{
+border-radius: 10px;
+border: none;
+height: 4vh;
+margin-left: 10px;
+}
+
+.form-cadaluno{
+margin-left: -50px;
+
+}
+
+
+.aprovado{
+background-color: rgb(25, 119, 25);
+
+}
+
+.reprovado{
+background-color: rgb(142, 21, 21);
+
+}
+
+
+.btn-formulario-cadaluno{
+display: flex;
+
+
+}
+
